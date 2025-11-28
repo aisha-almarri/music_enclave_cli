@@ -1,0 +1,14 @@
+# Bandit configuration file for Secure Music Copyright Enclave
+skips: ['B101', 'B105', 'B106', 'B107', 'B108', 'B110']
+exclude_dirs: ['venv', 'storage', '__pycache__', '.pytest_cache']
+
+# Use standard test sets instead of individual test IDs
+tests:
+  - 'B3'   # Blacklist (pickle, marshal, etc.)
+  - 'B5'   # Cryptographic issues  
+  - 'B6'   # Shell injection
+
+# Output formatting
+output_format: json
+verbose: true
+level: 'LOW'

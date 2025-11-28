@@ -1,0 +1,204 @@
+
+
++===========================================================================================================================================================================================+
+
+
+DEPRECATED: this command (`check`) has been DEPRECATED, and will be unsupported beyond 01 June 2024.
+
+
+We highly encourage switching to the new `scan` command which is easier to use, more powerful, and can be set up to mimic the deprecated command if required.
+
+
++===========================================================================================================================================================================================+
+
+
++==============================================================================+
+
+                                   /$$$$$$            /$$
+                                  /$$__  $$          | $$
+               /$$$$$$$  /$$$$$$ | $$  \__//$$$$$$  /$$$$$$   /$$   /$$
+              /$$_____/ |____  $$| $$$$   /$$__  $$|_  $$_/  | $$  | $$
+             |  $$$$$$   /$$$$$$$| $$_/  | $$$$$$$$  | $$    | $$  | $$
+              \____  $$ /$$__  $$| $$    | $$_____/  | $$ /$$| $$  | $$
+              /$$$$$$$/|  $$$$$$$| $$    |  $$$$$$$  |  $$$$/|  $$$$$$$
+             |_______/  \_______/|__/     \_______/   \___/   \____  $$
+                                                              /$$  | $$
+                                                             |  $$$$$$/
+      by safetycli.com                                        \______/
+
++==============================================================================+
+
+ REPORT 
+
+  Safety v3.7.0 is scanning for Vulnerabilities...
+  Scanning dependencies in your environment:
+
+  -> C:\Users\lenovo\Desktop\music_enclave_cli\venv\Lib\site-packages
+
+  Using open-source vulnerability database
+  Found and scanned 87 packages
+  Timestamp 2025-11-19 18:13:42
+  11 vulnerabilities reported
+  0 vulnerabilities ignored
+
++==============================================================================+
+ VULNERABILITIES FOUND
++==============================================================================+
+
+-> Vulnerability found in setuptools version 65.5.0
+   Vulnerability ID: 72236
+   Affected spec: <70.0.0
+   ADVISORY: Affected versions of Setuptools allow for remote code
+   execution via its download functions. These functions, which are used...
+   CVE-2024-6345
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/72236/97c
+   To ignore this vulnerability, use PyUp vulnerability id 72236 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in setuptools version 65.5.0
+   Vulnerability ID: 76752
+   Affected spec: <78.1.1
+   ADVISORY: Affected versions of Setuptools are vulnerable to Path
+   Traversal via PackageIndex.download(). The impact is Arbitrary File...
+   CVE-2025-47273
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/76752/97c
+   To ignore this vulnerability, use PyUp vulnerability id 76752 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in setuptools version 65.5.0
+   Vulnerability ID: 52495
+   Affected spec: <65.5.1
+   ADVISORY: Setuptools 65.5.1 includes a fix for CVE-2022-40897:
+   Python Packaging Authority (PyPA) setuptools before 65.5.1 allows...
+   CVE-2022-40897
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/52495/97c
+   To ignore this vulnerability, use PyUp vulnerability id 52495 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in pip version 23.2.1
+   Vulnerability ID: 75180
+   Affected spec: <25.0
+   ADVISORY: Pip solves a security vulnerability that previously
+   allowed maliciously crafted wheel files to execute unauthorized code...
+   PVE-2025-75180
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/75180/97c
+   To ignore this vulnerability, use PyUp vulnerability id 75180 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in pip version 23.2.1
+   Vulnerability ID: 62044
+   Affected spec: <23.3
+   ADVISORY: Affected versions of Pip are vulnerable to Command
+   Injection. When installing a package from a Mercurial VCS URL (ie "pip...
+   CVE-2023-5752
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/62044/97c
+   To ignore this vulnerability, use PyUp vulnerability id 62044 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in pip version 23.2.1
+   Vulnerability ID: 79883
+   Affected spec: <25.2
+   ADVISORY: Affected versions of the pip package are vulnerable to
+   Arbitrary File Overwrite due to improper validation of symbolic link...
+   CVE-2025-8869
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/79883/97c
+   To ignore this vulnerability, use PyUp vulnerability id 79883 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in cryptography version 41.0.7
+   Vulnerability ID: 65647
+   Affected spec: <42.0.5
+   ADVISORY: Cryptography version 42.0.5 introduces a limit on the
+   number of name constraint checks during X.509 path validation to...
+   PVE-2024-65647
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/65647/97c
+   To ignore this vulnerability, use PyUp vulnerability id 65647 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in cryptography version 41.0.7
+   Vulnerability ID: 65278
+   Affected spec: <42.0.0
+   ADVISORY: Affected versions of Cryptography may allow a remote
+   attacker to decrypt captured messages in TLS servers that use RSA key...
+   CVE-2023-50782
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/65278/97c
+   To ignore this vulnerability, use PyUp vulnerability id 65278 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in cryptography version 41.0.7
+   Vulnerability ID: 65212
+   Affected spec: >=35.0.0,<42.0.2
+   ADVISORY: Versions of Cryptograph starting from 35.0.0 are
+   susceptible to a security flaw in the POLY1305 MAC algorithm on PowerPC...
+   CVE-2023-6129
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/65212/97c
+   To ignore this vulnerability, use PyUp vulnerability id 65212 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in cryptography version 41.0.7
+   Vulnerability ID: 66704
+   Affected spec: >=38.0.0,<42.0.4
+   ADVISORY: cryptography is a package designed to expose
+   cryptographic primitives and recipes to Python developers. Starting in...
+   CVE-2024-26130
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/66704/97c
+   To ignore this vulnerability, use PyUp vulnerability id 66704 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
+-> Vulnerability found in bandit version 1.7.5
+   Vulnerability ID: 64484
+   Affected spec: <1.7.7
+   ADVISORY: Bandit 1.7.7 identifies the str.replace method as a
+   potential risk for SQL injection because it can be misused in...
+   PVE-2024-64484
+   For more information about this vulnerability, visit
+   https://data.safetycli.com/v/64484/97c
+   To ignore this vulnerability, use PyUp vulnerability id 64484 in safety’s
+   ignore command-line argument or add the ignore to your safety policy file.
+
+
++==============================================================================+
+   REMEDIATIONS
+
+  11 vulnerabilities were reported in 4 packages. For detailed remediation & 
+  fix recommendations, upgrade to a commercial license. 
+
++==============================================================================+
+
+ Scan was completed. 11 vulnerabilities were reported. 
+
++==============================================================================+
+
+
++===========================================================================================================================================================================================+
+
+
+DEPRECATED: this command (`check`) has been DEPRECATED, and will be unsupported beyond 01 June 2024.
+
+
+We highly encourage switching to the new `scan` command which is easier to use, more powerful, and can be set up to mimic the deprecated command if required.
+
+
++===========================================================================================================================================================================================+
+
+

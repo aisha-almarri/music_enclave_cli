@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+.env
+
+# Database files
+*.db
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Security reports 
+# security_reports/
+
+# Large media files
+*.mp4
+*.mp3
+*.wav
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sample/test files (optional - include if you don't want them on GitHub)
+# lyric_sample.txt
+# score_sample.txt  
+# audio_info.txt
+# music.mp3

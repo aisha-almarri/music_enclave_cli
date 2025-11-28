@@ -1,0 +1,21 @@
+DIGITAL DREAMS - MUSIC SCORE
+
+Composer: AI Composer
+Tempo: 120 BPM
+Key: C Minor
+
+Structure:
+- Intro (8 bars)
+- Verse (16 bars) 
+- Chorus (8 bars)
+- Bridge (8 bars)
+- Outro (8 bars)
+
+Instrumentation:
+- Synthesizer pads
+- Drum machine
+- Bass line
+- Lead melody
+
+Chords Progression:
+Cm - G - Ab - Eb

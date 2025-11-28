@@ -1,0 +1,68 @@
+DETAILED CUSTOM SECURITY SCAN REPORT
+============================================================
+Scan date: 2025-11-19 18:13:29.533581
+Files scanned: 14
+Total issues found: 12
+
+
+FILE: .\main.py
+----------------------------------------
+Line 65: [MEDIUM] Information disclosure
+  Code: print("- Keep this password secure and memorable")
+  Recommendation: Avoid logging sensitive information
+
+Line 68: [MEDIUM] Information disclosure
+  Code: print("- Use a strong password with mixed characters")
+  Recommendation: Avoid logging sensitive information
+
+Line 76: [MEDIUM] Information disclosure
+  Code: print("❌ Error: Master password cannot be empty!")
+  Recommendation: Avoid logging sensitive information
+
+Line 80: [MEDIUM] Information disclosure
+  Code: print("❌ Error: Password must be at least 8 characters long!")
+  Recommendation: Avoid logging sensitive information
+
+Line 91: [MEDIUM] Information disclosure
+  Code: print("❌ Error: Passwords do not match! Please try again.")
+  Recommendation: Avoid logging sensitive information
+
+Line 440: [MEDIUM] Information disclosure
+  Code: print("   - Secure Password Hashing (bcrypt)")
+  Recommendation: Avoid logging sensitive information
+
+Line 546: [MEDIUM] Information disclosure
+  Code: print("❌ Error: Password cannot be empty!")
+  Recommendation: Avoid logging sensitive information
+
+Line 568: [MEDIUM] Information disclosure
+  Code: print("❌ Error: Password cannot be empty!")
+  Recommendation: Avoid logging sensitive information
+
+Line 571: [MEDIUM] Information disclosure
+  Code: print("❌ Error: Password must be at least 6 characters!")
+  Recommendation: Avoid logging sensitive information
+
+Line 590: [MEDIUM] Information disclosure
+  Code: print(f"   Password: {'*' * len(password)}")
+  Recommendation: Avoid logging sensitive information
+
+
+FILE: .\user_manager.py
+----------------------------------------
+Line 89: [MEDIUM] Information disclosure
+  Code: print("Invalid username or password")
+  Recommendation: Avoid logging sensitive information
+
+
+FILE: .\tests\test_users.py
+----------------------------------------
+Line 179: [MEDIUM] Information disclosure
+  Code: print("✓ Password hashing and verification works securely")
+  Recommendation: Avoid logging sensitive information
+
+
+SECURITY ASSESSMENT:
+----------------------------------------
+Found 12 potential security concerns.
+Review each finding and implement recommended fixes.
